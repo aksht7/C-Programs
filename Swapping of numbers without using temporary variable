@@ -2,13 +2,13 @@
 #include <stdio.h> //for standard input output
 int main()
 {
-  int a,b;
+  int num1,num2;
   printf("Enter Two Numbers : ");
-  scanf("%d %d",&a,&b); 
+  scanf("%d %d",&num1,&num2); 
   //bitwise algorithm on swapping
-  a=a^b;  //(^)Xor bitwise operator
-  b=a^b;
-  a=a^b;
-  printf("Swapped Numbers are : %d  %d",a,b);
+  num1=num1^num2;  //(^)Xor bitwise operator
+  num2=num1^num2;
+  num1=num1^num2;
+  printf("Swapped Numbers are : %d  %d",num1,num2);
   return 0;     //Happy Coding :)
 }
