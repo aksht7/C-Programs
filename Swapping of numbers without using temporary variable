@@ -1,9 +1,9 @@
-               //This program allows you to swap numbers without using a temporary variable
+    //This program allows you to swap numbers without using a temporary variable
 #include <stdio.h> //for standard input output
 int main()
 {
   int a,b;
-  printf("Enter Two Numbers : ");
+  printf("Enter Two Numbers : \n");
   scanf("%d %d",&a,&b); 
   //bitwise algorithm on swapping
   a=a^b;  //(^)Xor bitwise operator
