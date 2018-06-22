@@ -15,8 +15,8 @@ int main()                      /*Main Driving Program*/
 
     temp=num1;                          /*Swapping Operation/Algorithm*/
 
-    num1=num2;
-
+    num1=num2;            //Value at num1 is stored at temp variable.Therfore at address of num1 ,the value of num2 is stored. 
+                          //Then value of num1 is stored at address of num2 which is present in temp variable. This cause swapping.
     num2=temp;
 
     printf("Numbers after swapping are %d and %d\n",num1,num2);
